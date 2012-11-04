@@ -288,5 +288,9 @@
 }).call(this);
 
 
-
+  $(function() {
+        $( "#progressbar" ).progressbar({
+            value: 37
+        });
+    }); 
 
